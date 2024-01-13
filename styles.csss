@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#chat-container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #001f3f; /* Dark Blue */
+    color: #ffffff; /* White */
+}
+
+#chat-thread {
+    height: 300px;
+    overflow-y: auto;
+}
+
+#user-input {
+    display: flex;
+    margin-top: 10px;
+}
+
+#message-input {
+    flex: 1;
+    padding: 5px;
+}
+
+button {
+    padding: 5px 10px;
+    margin-left: 10px;
+    background-color: #d9534f; /* Reddish */
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
