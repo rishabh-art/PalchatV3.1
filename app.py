@@ -4,7 +4,7 @@ import openai
 app = Flask(__name__)
 
 # Set your OpenAI API key
-openai.api_key = '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'
+openai.api_key = 'API_KEY'
 
 @app.route('/', methods=['GET', 'POST'])
 def get_bot_response():
